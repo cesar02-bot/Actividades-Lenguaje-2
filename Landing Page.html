@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page Básica</title>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenido a Nuestra Página</h1>
+    <p>Tu solución digital comienza aquí</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos una empresa dedicada a ofrecer soluciones digitales innovadoras.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Diseño Web</li>
+        <li>Marketing Digital</li>
+        <li>Consultoría Tecnológica</li>
+      </ul>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería</h2>
+      <h3>Carrusel de Imágenes</h3>
+      <figure>
+        <img src="imagen1.jpg" alt="Imagen 1">
+        <figcaption>Proyecto 1</figcaption>
+      </figure>
+      <figure>
+        <img src="imagen2.jpg" alt="Imagen 2">
+        <figcaption>Proyecto 2</figcaption>
+      </figure>
+      <figure>
+        <img src="imagen3.jpg" alt="Imagen 3">
+        <figcaption>Proyecto 3</figcaption>
+      </figure>
+    </section>
+
+    <section id="video">
+      <h2>Video Promocional</h2>
+      <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="servicio">Servicio de interés:</label>
+        <select id="servicio" name="servicio">
+          <option value="web">Diseño Web</option>
+          <option value="marketing">Marketing Digital</option>
+          <option value="consultoria">Consultoría</option>
+        </select><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <aside>
+    <h3>Noticias</h3>
+    <ul>
+      <li><a href="#">Lanzamiento de nueva plataforma</a></li>
+      <li><a href="#">Evento de tecnología 2025</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 Soluciones Digitales. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
